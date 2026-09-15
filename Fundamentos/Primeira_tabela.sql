@@ -1,0 +1,26 @@
+/*Iniciando a Modelagem física*/
+
+CREATE DATABASE PROJETO;
+CREATE DATABASE EXEMPLO;
+
+USE PROJETO
+
+CREATE TABLE clientes(
+	nome VARCHAR(30),
+	sexo CHAR(1),
+	email VARCHAR(30),
+	cpf INT(11),
+	telefone VARCHAR(30),
+	endereco VARCHAR(100)
+	
+);
+
+SHOW TABLES;
+
+USE EXEMPLO;
+SHOW TABLES;
+
+USE CLIENTES;
+SHOW TABLES;
+
+DESC CLIENTES;
