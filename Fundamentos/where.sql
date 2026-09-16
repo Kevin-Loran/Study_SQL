@@ -1,0 +1,20 @@
+/*Aprendendo a utilizar WHERE*/
+
+SELECT NOME, SEXO FROM CLIENTES
+WHERE SEXO = 'F';
+
+SELECT NOME, ENDERECO FROM CLIENTES
+WHERE SEXO = 'M';
+
+SELECT NOME, SEXO FROM CLIENTES
+WHERE ENDERECO = 'Rua tres';
+
+/* Utilizando o like */
+
+SELECT NOME, SEXO FROM CLIENTES
+WHERE ENDERECO LIKE 'Rua tres';
+
+/* Utilizando o caractere curinga -> %*/
+
+SELECT NOME, SEXO FROM CLIENTES
+WHERE ENDERECO LIKE '%Rua tres%';
