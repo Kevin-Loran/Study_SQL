@@ -24,7 +24,7 @@ SELECT NOME, EMAIL, SEXO, DEPARTAMENTO FROM FUNCIONARIOS
 WHERE SEXO = (DEPARTAMENTO = 'LAR' OR DEPARTAMENTO = 'FILMES') AND SEXO = 'FEMININO' ;
 
 SELECT * FROM FUNCIONARIOS 
-WHERE DEPARTAMENTO = 'JARDIM' OR SEXO = 'MASCULINO' ;
+WHERE SEXO = 'MASCULINO' OR DEPARTAMENTO = 'JARDIM' ;
 
 insert into funcionarios values (1,'Kelley','rkelley0@soundcloud.com','Feminino','Computadores','10/2/2009',67470,'Structural Engineer',2);
 insert into funcionarios values (2,'Armstrong','sarmstrong1@infoseek.co.jp','Masculino','Esporte','3/31/2008',71869,'Financial Advisor',2);
