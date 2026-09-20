@@ -1,0 +1,14 @@
+/*Aprendendo sobre stored procedures*/
+STATUS
+ 
+DELIMITER $
+ 
+CREATE PROCEDURE CONTA(N1 INT, N2 INT)
+BEGIN
+		SELECT N1 + N2 AS CONTA;
+END
+$
+
+DELIMITER ;
+
+CALL CONTA(23, 2);
