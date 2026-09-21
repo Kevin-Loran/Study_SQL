@@ -1,0 +1,11 @@
+/*Aprendendo sobre como operar linhas*/
+
+SELECT 	NOME,
+		SEXO, 
+		JANEIRO,
+		FEVEREIRO,
+		MARCO,
+		(JANEIRO+FEVEREIRO+MARCO) AS "TOTAL",
+		(JANEIRO+FEVEREIRO+MARCO) / 3 AS "MEDIA"
+		FROM VENDEDORES;
+			
